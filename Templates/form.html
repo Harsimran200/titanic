@@ -1,0 +1,31 @@
+<html>
+ <head>
+   <title>Titanic Prediction Model</title>
+ </head>
+ <body>
+   <h3>enter the information to get a titanic prediction</h3>
+      <br><br>
+      <form action="/prediction" method="post">
+                  Pclass:<input name="Pclass" type="number" placeholder="Enter the Pclass">
+                             <br><br>
+                  Age:<input name="Age" type="number" placeholder="enter the Age">
+                             <br><br>                  
+                  SibSp:<input name="SibSp" type="number" placeholder="enter the SibSp" placeholder="enter the SibSp">
+                             <br><br>
+                  Parch:<input name="Parch" type="number" placeholder="enter the Parch">
+                             <br><br>
+                  Fare:<input name="Fare" type="number" placeholder="enter the Fare">
+                             <br><br>
+                  male:<input name="male" type="number" placeholder="enter the number of males">
+                             <br><br>
+                  Q:<input name="Q" type="number" placeholder="enter the number of Q">
+                             <br><br>
+                  S:<input name="S" type="number" placeholder="enter the number of S">
+                             <br><br>
+                  <input type="Submit">
+                  </form>
+                  <br><br>
+                 <b> prediction: </b> {{output_prediction}} <br>
+                 <b> probability:{{output_proba}} </b> <br>
+ </body>
+</html>
