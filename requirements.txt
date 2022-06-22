@@ -1,4 +1,4 @@
-flask
-scikit-learn
+flask==2.0.2
+scikit-learn==0.24.2
 gunicorn
-numpy
+
